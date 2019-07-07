@@ -1,0 +1,26 @@
+{
+  "name": "Filerun Shareable Gallery Expansion",
+  "description": "Generates a shareable image/video gallery from a deployed filerun instance",
+  "authors": [
+    {
+      "name": "Magnus Brzenk",
+      "email": "magnusbrzenk@gmail.com"
+    }
+  ],
+  "require": {
+    "guzzlehttp/guzzle": "~6.1",
+    "vlucas/phpdotenv": "^3.3",
+    "php": ">=5.5.0"
+  },
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "FileRun\\API\\": "src"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0.x-dev"
+    }
+  }
+}
