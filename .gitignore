@@ -4,5 +4,6 @@ test.sh
 vendor
 .redundant
 .env
+roughWorking.txt
 
-gallery.php
+# gallery.php

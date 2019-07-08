@@ -9,3 +9,7 @@ This code generates a shareable image/video gallery from a deployed filerun inst
 `git clone ...`
 `cp .env-template .env` (and fill in variables)
 ...
+
+## Dev Notes
+
+- When trying to figure out mysql tables schema, I found that the filerun db did NOT export all tables unless I added the option `--single-transaction` as follows: `sudo mysqldump -u root --single-transaction -p filerun > temp.sql`
