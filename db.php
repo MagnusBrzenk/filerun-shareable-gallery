@@ -9,23 +9,6 @@ require_once __DIR__ . '/vendor/autoload.php';
 $dotenv = Dotenv\Dotenv::create(__DIR__);
 $dotenv->load();
 
-// DEFINE ENV VARS
-// $FILERUN_URL = getenv('FILERUN_URL');
-// $FILERUN_USER_NAMES = getenv('FILERUN_USER_NAMES');
-// $FILERUN_USER_PASSWORDS = getenv('FILERUN_USER_PASSWORDS');
-
-// $FILERUN_DB_HOST = getenv('FILERUN_DB_HOST');
-// $FILERUN_DB_NAME = getenv('FILERUN_DB_NAME');
-// $FILERUN_DB_USER = getenv('FILERUN_DB_USER');
-// $FILERUN_DB_PASSWORD = getenv('FILERUN_DB_PASSWORD');
-
-// $FILERUN_CLIENT_ID = getenv('FILERUN_CLIENT_ID');
-// $FILERUN_CLIENT_SECRET = getenv('FILERUN_CLIENT_SECRET');
-
-// CREATE CONNECTION
-// echo "<hr>" . $FILERUN_DB_HOST . "  " . $FILERUN_DB_USER . "<br>";
-// $connection = mysqli_connect($FILERUN_DB_HOST, $FILERUN_DB_USER, $FILERUN_DB_PASSWORD, $FILERUN_DB_NAME);
-
 class FILERUN_CONNECTOR
 {
     static $FILERUN_URL;
